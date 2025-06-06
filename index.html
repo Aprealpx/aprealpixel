@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Website</title>
+    <link rel="stylesheet" href="style.css" />
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+</head>
+<body>
+ <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="pixelart.html">Pixel Art</a></li>
+            <li><a href="#">Digital Art</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    </div>
+     <div class="pixel-font">
+    </div>
+
+
+        <!-- Add this in your HTML -->
+<h1 class="typewriter" id="type-text"></h1>
+
+<!-- Add this script at the bottom of your HTML or in a <script> tag -->
+<script>
+  const text = "Hello, welcome to my pixel world!";
+  const speed = 100; // typing speed in ms
+  let i = 0;
+
+  function typeWriter() {
+    if (i < text.length) {
+      document.getElementById("type-text").innerHTML += text.charAt(i);
+      i++;
+      setTimeout(typeWriter, speed);
+    }
+  }
+
+  window.onload = typeWriter;
+</script>
+
+<div class="paragraph-font">
+<h1>Commission Sheet</h1>
+<h1>Commission Guidelines – DOs & DON’Ts</h1>
+<p>
+✅DO: <br>
+
+-Be specific with what you want <br>
+
+-Tell me the size/style you need <br>
+
+-Be respectful and kind <br>
+
+-Credit me when posting <br>
+
+❌ DON'T: <br>
+
+-Ask for big changes after approval <br>
+
+-Rush me <br>
+
+-Use my art for NFTs or AI <br>
+
+-Claim the art as your own <br>
+</p>
+</div>
+
+</body>
+</html>
